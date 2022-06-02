@@ -1,0 +1,44 @@
+ .medium{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 0 0 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .medium-img {
+    width: 100%;
+    align-self: center;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+  }
+  .content-main h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content-main p {
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .medium{
+      grid-template-columns: 1fr;
+    }
+    .content-main h1 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .content-main p {
+      font-size: 0.8rem;
+    }
+  }

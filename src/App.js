@@ -1,17 +1,20 @@
-import { Grid } from '@mui/material';
 import './App.css';
-import Search from './components/Search';
+import Navbar from './components/Navbar'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Detail from "./Detail"
 
 function App() {
   return (
-    <Grid 
-    className="App" 
-    container direction='column' 
-    justify='center' 
-    alignItems="center">
-       <h1>Url Shortner</h1>
-       <Search/>
-    </Grid>
+    <Router> 
+    <Navbar/> 
+    <Routes>
+    <Route path="/" element={<Detail/>} />
+    </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,126 @@
+.navbar {
+    background: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c2237;
+    font-size: 1.0rem;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    }
+
+    .container {
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        }
+        .navbar-logo {
+        color: #1c2237;
+        justify-self: start;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        }
+        .navbar-icon {
+        margin-right: 0.5rem;
+        color: #1c2237;
+        }
+        .nav-menu {
+        display: flex;
+        align-items: center;
+        color: #1c2237;
+        justify-content: flex-start;
+        list-style: none;
+        text-align: center;
+       
+        }
+        .nav-item {
+        height: 100%;
+        align-items: center;
+        color: #1c2237;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+        border-bottom: 2px solid transparent;
+        }
+        .nav-item:hover {
+            color:cadetblue;
+        }
+        .nav-links {
+        color: #1c2237;
+        display: flex;
+
+        align-items: center;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        height: 100%;
+        }
+        .menu-icon {
+        display: none;
+        }
+
+          .nav-items{
+            height: 80px;
+        border-radius: 2px solid transparent;
+          }
+
+          .nav-items:hover{
+            border-radius : 2px solid rgba(10,14,39,.9);   
+          }
+
+          .nav-linkst {
+            color: #1c2237;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            height: 100%;
+            }
+
+            .btn--outline {
+                background-color: #eee;
+                color: #000;
+                padding: 8px 20px;
+                border-radius: 4px;
+                border: 1px solid var(--primary);
+                transition: all 0.3s ease-out;
+              }
+           .nav-sign{
+            list-style: none;
+           }
+           .item {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+          
+          .item:nth-child(2) {
+            flex: 3;
+          }
+          
+          .item:last-child {
+            justify-content: flex-end;
+          }
+          @media screen and (max-width:480px) {
+            .item:nth-child(2) {
+              display: none;
+            }
+          
+            .item:nth-child(1) {
+              flex: 3;
+            }
+          }
