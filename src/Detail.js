@@ -1,5 +1,4 @@
 import './App.css';
-import './Details.css'
 import Banner from './components/Banner';
 import Main from './components/Main';
 import Medium from './components/Medium';
