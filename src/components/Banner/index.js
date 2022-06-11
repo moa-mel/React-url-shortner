@@ -4,6 +4,7 @@ import bannerImg from './website-hosting.svg';
 
 const Banner = ({ handleScrollMenu }) => (
   < div className='banner'>
+  <div className='container'>
     <div className='header-content'>
       <div className='content-main'>
         <h1>Shorten, personalize, and share fully branded short URLs.</h1>
@@ -14,6 +15,7 @@ const Banner = ({ handleScrollMenu }) => (
       </div>
     </div>
     <img className='header-img' src={bannerImg} alt='banner' />
+  </div>
   </div>
 );
 

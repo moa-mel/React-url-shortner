@@ -1,10 +1,15 @@
  .medium{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0.5rem 0 0 0;
     height: 100vh;
+    
+  }
+  .medium .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
   }
   .medium-img {
     width: 100%;

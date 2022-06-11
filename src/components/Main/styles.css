@@ -1,13 +1,17 @@
-.main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0.5rem 0 0 0;
+ .main {
+  display: grid;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-color: var(--background);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
 
+  } 
+  .main .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
   }
   .middle-h3 {
     width: 100%;
