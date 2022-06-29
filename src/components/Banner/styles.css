@@ -1,16 +1,14 @@
   .banner{
-    
+     display: grid;
     height: 100vh;
-   
   } 
   .banner .container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin: 4rem auto;
-   
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0 0 0;
+    padding: 1rem;
   
   }
   .banner-img {
@@ -55,15 +53,16 @@
   }
   
   @media (max-width: 768px) {
-    .banner{
+    .banner .container{
       grid-template-columns: 1fr;
+      margin: 1rem 0;
     }
     .content-main h1 {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    /*  margin-bottom: 1rem; */
     }
     .content-main p {
-      font-size: 0.8rem;
+      font-size: 1.0rem;
     }
     .content-main button {
       font-size: 0.8rem;

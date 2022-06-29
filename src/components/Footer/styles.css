@@ -48,7 +48,7 @@ a {
         grid-template-columns: repeat(2,1fr);
     }
 
-    .footer .col-1 {
+   /* .footer .col-1 {
         display: none;
-    }
+    } */
 }

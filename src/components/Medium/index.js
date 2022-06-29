@@ -7,7 +7,7 @@ const Medium = () => {
     <div className='medium'>
     <div className='container'>
     <div className='header-content'>
-      <div className='content-main'>
+      <div className='contant-main'>
         <h1>Delicious food for your cravings</h1>
         <p>We made fresh and healthy meals with different recipes</p>
       </div>

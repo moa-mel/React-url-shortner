@@ -10,7 +10,7 @@ const Banner = ({ handleScrollMenu }) => (
         <h1>Shorten, personalize, and share fully branded short URLs.</h1>
         <p>We simplify it </p>
         <button onClick={handleScrollMenu}>
-          View Menu <i className='fas fa-long-arrow-alt-right'></i>
+          View Menu {/*<i className='fas fa-long-arrow-alt-right'></i> */}
         </button>
       </div>
     </div>

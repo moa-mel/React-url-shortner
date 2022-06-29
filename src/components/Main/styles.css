@@ -54,7 +54,12 @@
       padding: 0.5rem 1rem;
       margin-top: 1.5rem;
     }
-  .main {
+  .main .container {
     grid-template-columns: 1fr;
+    margin: 1rem 0;
+  }
+  .main .container h1{
+    font-size: 0.96rem;
+    width: 100%;
   }
   }

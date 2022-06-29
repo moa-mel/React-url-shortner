@@ -20,30 +20,31 @@
     flex-direction: column;
   }
   
-  .content-main {
+  .contant-main {
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
   }
-  .content-main h1 {
+  .contant-main h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
   }
   
-  .content-main p {
+  .contant-main p {
     font-weight: 500;
   }
   
   @media (max-width: 768px) {
-    .medium{
+    .medium .container{
       grid-template-columns: 1fr;
+      margin: 1rem 0;
     }
-    .content-main h1 {
-      font-size: 1.2rem;
+    .contant-main h1 {
+      font-size: 0.95rem;
       margin-bottom: 1rem;
     }
-    .content-main p {
-      font-size: 0.8rem;
+    .contant-main p {
+      font-size: 1.0rem;
     }
   }
