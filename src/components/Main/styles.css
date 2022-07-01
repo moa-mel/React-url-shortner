@@ -44,7 +44,14 @@
     cursor: pointer;
     margin-top: 4.5rem;
   }
-  
+  .main .container h1{
+    font-size: 2rem;
+  }
+  .main .container .main-sht{
+    font-weight: 500;
+    width: 100%;
+    
+  }
   
   @media (max-width: 768px) {
     
@@ -59,7 +66,11 @@
     margin: 1rem 0;
   }
   .main .container h1{
-    font-size: 0.96rem;
+    font-size: 0.95rem;
     width: 100%;
   }
+  .main .container .main-sht{
+    font-size: 0.98rem;
+    width: 100%;
+  } 
   }

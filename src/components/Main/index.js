@@ -19,7 +19,10 @@ const Main = () => {
       </Card>
       </div>
       </div>
-      <h1> qat<span className='primary'>sar</span> is a simple tool that shortens links and allows you to overlay your own custom message onto any piece of content, creating an opportunity for you to include a call-to-action with every link you share.</h1>
+      <div>
+      <h1> qat<span className='primary'>sar</span> is a simple tool that shortens links and allows you to overlay your own custom message onto any piece of content. </h1>
+      <p className="main-sht">It creates an opportunity for you to include a call-to-action with every link you share.</p>
+    </div>
     </div>
     </div>
   )

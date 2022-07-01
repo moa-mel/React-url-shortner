@@ -58,7 +58,8 @@
       margin: 1rem 0;
     }
     .content-main h1 {
-      font-size: 0.95rem;
+      font-size: 0.92rem;
+      width: 100%;
     /*  margin-bottom: 1rem; */
     }
     .content-main p {
