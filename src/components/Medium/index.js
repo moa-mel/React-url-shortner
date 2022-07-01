@@ -8,8 +8,8 @@ const Medium = () => {
     <div className='container'>
     <div className='header-content'>
       <div className='contant-main'>
-        <h1>Delicious food for your cravings</h1>
-        <p>We made fresh and healthy meals with different recipes</p>
+        <h1>Long url shortened</h1>
+        <p>Save yourself the stress of those long links, just qat<span className='primary'>sar</span> it. </p>
       </div>
     </div>
     <img className='header-img' src={MediumImg} alt='banner' />
